@@ -1,0 +1,241 @@
+/* INIZIO RESET */
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO REGOLE GENERALI */
+li {
+  padding:0 10px 0 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.titolo {
+  margin-bottom: 10px;
+}
+
+.sottotitolo {
+  margin-bottom: 10px;
+}
+
+.box {
+  position: relative;
+}
+.box > .box-text-center {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO HEADER */
+/* inizio nav */
+header nav {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 70px;
+}
+
+header nav .burger {
+font-size: 30px;
+}
+
+header nav ul {
+  text-align: right;
+}
+/* fine nav */
+
+/* inizio jumbo */
+header .jumbo {
+  /* position: relative; */
+  color: white;
+  height: 450px;
+  background-image: url(../img/jumbo-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* fine jumbo */
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+/* inizio section product-previews */
+#product-previews .col-lg-6 {
+height: 600px;
+padding-right: 15px;
+}
+
+#product-previews .col-lg-6 .box-text-center {
+  background-color: #fafafa;
+
+}
+
+#product-previews .col-lg-6 .box-text-center img {
+  height: 400px;
+}
+/* fine section product-previews */
+
+/* inizio section how-work */
+#how-work .banner {
+  height: 300px;
+  background-position: left;
+  background-size: cover;
+  background-image: url(../img/helbizbanner.jpg);
+}
+
+#how-work .box {
+  height: 260px;
+}
+
+#how-work .box .box-text-center {
+  text-align: left;
+}
+
+#how-work .box h3 {
+  font-size: 20px;
+}
+
+#how-work img {
+  display: block;
+  margin: auto;
+  margin-top: -260px;
+  height: 520px;
+}
+
+/* NOTE: riuniew mediaquiri alla fine */
+@media screen and (max-width: 992px)  {
+  #how-work .box {
+    margin-left: 80px;
+    height: 100px;
+  }
+  #how-work .box:last-child {
+    margin-bottom: 60px;
+  }
+}
+/* fine section how-work */
+
+/* inizio  client-info */
+#client-info .conteiner .box:first-child {
+  background-image: url(../img/scooter-client-info.jpg);
+  background-size: cover;
+  height: 400px;
+  color: white;
+}
+
+#client-info .conteiner .box:first-child .box-text-center {
+  margin-left: 30%;
+}
+
+/* NOTE: riuniew mediaquiri alla fine */
+@media screen and (max-width: 992px)  {
+  #client-info .conteiner .box:first-child .box-text-center {
+    margin-left: 0;
+  }
+}
+
+#client-info .conteiner .box:nth-child(2) {
+  height: 400px;
+  color: white;
+}
+
+#client-info .conteiner .box:nth-child(2) .box-text-center {
+  background-color: #374858;
+  padding-bottom: 0;
+}
+
+#client-info .conteiner .box:nth-child(2)  img {
+  height: 200px;
+}
+
+#client-info .conteiner .box:last-child {
+  height: 400px;
+  color: white;
+
+}
+
+#client-info .conteiner .box:last-child .box-text-center {
+  background-image: url(../img/cities.jpg);
+  background-size: cover;
+  height: 284px;
+
+}
+/* fine  client-info */
+
+/* inizio helbiz-family */
+#helbiz-family > .box {
+  height: 400px;
+  background-image: url(../img/Social-Banner.jpg);
+  background-size: cover;
+}
+
+#helbiz-family .box .box-text-center {
+  padding-top: 60px;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  font-size: 26px;
+}
+#helbiz-family .box .box-text-center .link a {
+  padding: 10px;
+  font-size: 25px;
+}
+/* fine  helbiz-family */
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .conteiner.list p {
+  font-size: 30px;
+  padding: 110px 0 0 40px;
+}
+
+footer .conteiner.list h3{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+
+footer .conteiner.list li {
+  color: #656665;
+  display: block;
+  padding: 4px 20px;
+  margin-top:
+}
+
+footer .conteiner:nth-child(2) hr {
+  margin: 50px 0;
+}
+
+footer .conteiner:nth-child(2) div {
+  padding-bottom: 50px;
+}
+
+footer .conteiner:nth-child(2) a {
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+footer .badge {
+  text-align: center;
+  padding-bottom: 70px;
+}
+footer .badge a {
+  margin-left: 10px;
+}
+/* FIEN FOOTER */
