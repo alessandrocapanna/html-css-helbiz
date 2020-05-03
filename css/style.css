@@ -73,12 +73,12 @@ header .jumbo {
 /* inizio section product-previews */
 #product-previews .col-lg-6 {
 height: 600px;
-padding-right: 15px;
+
 }
 
 #product-previews .col-lg-6 .box-text-center {
   background-color: #fafafa;
-
+border: 10px solid white;
 }
 
 #product-previews .col-lg-6 .box-text-center img {
@@ -126,6 +126,10 @@ padding-right: 15px;
 /* fine section how-work */
 
 /* inizio  client-info */
+#client-info .conteiner .box {
+  border: 10px solid white;
+}
+
 #client-info .conteiner .box:first-child {
   background-image: url(../img/scooter-client-info.jpg);
   background-size: cover;
@@ -167,7 +171,7 @@ padding-right: 15px;
 #client-info .conteiner .box:last-child .box-text-center {
   background-image: url(../img/cities.jpg);
   background-size: cover;
-  height: 284px;
+  height: 280px;
 
 }
 /* fine  client-info */
@@ -223,7 +227,7 @@ footer .conteiner:nth-child(2) hr {
 }
 
 footer .conteiner:nth-child(2) div {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 footer .conteiner:nth-child(2) a {
@@ -237,5 +241,11 @@ footer .badge {
 }
 footer .badge a {
   margin-left: 10px;
+}
+@media screen and (max-width: 992px) {
+  footer div {
+    text-align:center;
+
+  }
 }
 /* FIEN FOOTER */
